@@ -8,7 +8,19 @@ body {
 	height: 100vh;
 	position: relative;
 	margin: 150px 50px;
+	border-radius: 10%;
 	background-color: #FFF;
+	text-align: center;
+	svg {
+		width: 70%;
+		position:absolute;
+		bottom: 40px;
+		left: 15%;
+
+	}
+	#poo {
+		width:60%;
+	}
 
 	&::nth-of-type(2n) {
 		background-color: #FFF;
@@ -16,10 +28,11 @@ body {
 		}
 
 	h1 {
-		font-size: 10em;
+		font-size: 100px;
 		font-weight: 600;
 		position: absolute;
-		margin: 40px 40px;
+		margin: 0px 40px;
+		text-align: left;
 		}
 	}
 }
